@@ -1,16 +1,19 @@
 # quiz_app
 
-A new Flutter project.
+Created a quiz application using flutter in which we can edit the questions and answers, see leaderboard,see all previous scores.
+I have also added swipe features to delete the question in admin login
 
-## Getting Started
+## Packages used in the project are
 
-This project is a starting point for a Flutter application.
+- [Firebase Auth](https://pub.dev/packages/firebase_auth)
+- [Firebase Core](https://pub.dev/packages/firebase_core)
+- [Cloud Firestore](https://pub.dev/packages/cloud_firestore)
+- [Firebase Database](https://pub.dev/packages/firebase_database)
+- [Google Sign in](https://pub.dev/packages/google_sign_in)
+- [Flutter Signin Button](https://pub.dev/packages/flutter_signin_button)
+- [Flutter Toast](https://pub.dev/packages/fluttertoast)
+- [http](https://pub.dev/packages/http)
 
-A few resources to get you started if this is your first Flutter project:
+## Video Google Drive Link
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Click here](https://drive.google.com/file/d/1eElPSQXizpfjbRrhgXXoQS_44JVG5UjA/view?usp=sharing)
