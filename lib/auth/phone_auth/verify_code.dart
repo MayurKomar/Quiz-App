@@ -66,7 +66,7 @@ class _VerifyCodeScreenState extends State<VerifyCodeScreen> {
                 });
                 
                 // ignore: use_build_context_synchronously
-                Navigator.of(context).pushReplacementNamed(HomeScreen.routeName);
+                Navigator.of(context).pushNamedAndRemoveUntil(HomeScreen.routeName,((route) => false));
                 
               }catch(e){
                 setState(() {

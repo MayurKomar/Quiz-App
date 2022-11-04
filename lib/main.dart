@@ -1,3 +1,4 @@
+import 'package:flutter/services.dart';
 import 'package:quiz_app/screens/add_or_edit_question.dart';
 import 'package:quiz_app/screens/questions_list.dart';
 import 'package:quiz_app/splash_screen.dart';
@@ -18,6 +19,10 @@ import 'auth/phone_auth/login_with_phone_number.dart';
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
   runApp(const MyApp());
 }
 

@@ -50,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
       Constants.userUid: _auth.currentUser?.uid,
       Constants.topScore: "0"
     }).then((value) =>
-        Navigator.of(context).pushReplacementNamed(HomeScreen.routeName));
+        Navigator.of(context).pushNamedAndRemoveUntil(HomeScreen.routeName,((route) => false)));
   }
 
   void login() {
